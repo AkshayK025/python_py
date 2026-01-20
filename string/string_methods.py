@@ -26,6 +26,7 @@ print(string_a,
 # Search and Find Methods
 # find():,rfind():,index():,rindex():,str.endswith(suffix),str.startswith(prefix)
 print()
+print("Search and Find Methods")
 string_b = string_a + " " + 'hello'
 print(string_b)
 print(f'find(hello):{string_b.find('hello')}',
@@ -36,3 +37,30 @@ print(f'find(hello):{string_b.find('hello')}',
       f'startswith(hello):{string_b.startswith('hello')}',
       sep='\n'
       )
+
+# String Modification
+# replace():,strip():,lstrip():,rstrip():,split():,join():
+print()
+print("String Modification methods")
+print(string_b)
+print(string_b.replace('elon','musk'),
+      string_b.split(),
+      string_b.strip()
+)
+
+
+#  String Checking Methods
+# isdigit():,isalpha():,isspace():,islower():,isupper():,stitle():
+print()
+print("String cheking Methods")
+print(string_b)
+print(
+        f'isdigit:{string_b.isdigit()}',
+        f'isalpha:{string_b.isalpha()}',
+        f'isspace:{string_b.isspace()}',
+        f'islower:{string_b.islower()}',
+        f'isupper:{string_b.isupper()}',
+        f'istitle:{string_b.istitle()}',
+        sep='\n'
+        )
+
