@@ -64,3 +64,8 @@ print(
         sep='\n'
         )
 
+# string split()
+print()
+print("string_split")
+print(string_b)
+print("string split:",string_b.split())
