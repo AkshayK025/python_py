@@ -1,0 +1,11 @@
+ID,FirstName,LastName,Gender,Salary,bonus,Location
+1,Ben,Hoskins,Male,70000,500,Delhi
+2,Mark,Hastings,Male,60000,1000,Mumbai
+3,Steve,Pound,Male,45000,5000,Delhi
+4,Ben,Hoskins,Male,70000,9000,Delhi
+5,Philip,Hastings,Male,45000,1000,Chennai
+6,Mary,Lambeth,FeMale,30000,1000,
+7,Valerie,Vikings,FeMale,35000,2000,Bangalore
+8,John,Stanmore,Male,80000,10000,Delhi
+9,Anna,Smith,,50000,5000,Mumbai
+10,Peter,Parker,Male,,1000,Kolkata
